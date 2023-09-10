@@ -1,2 +1,2 @@
-# prog
-Programação básica
+# Programação Básica
+Programação básica em Portugol Studio
