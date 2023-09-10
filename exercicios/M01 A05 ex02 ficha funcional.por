@@ -1,12 +1,14 @@
 programa
-{
+{  // Ex002 - Ficha funciona
 	
 	funcao inicio()
-	{
+	{	
+		// Declarando Variável
+		
 		cadeia nomeFuncionario
 		inteiro anoNascimento
 		real salario
-
+		// Entrada de Dados
 		escreva("Nome do funcionario: ")
 		leia(nomeFuncionario)
 
@@ -17,12 +19,12 @@ programa
 		leia(salario)
 
 		escreva("\n")
-
-		escreva("------------FICHA FUNCIONAL------------\n")
+		// Saí dos Resultados
+		escreva("----------- FICHA FUNCIONAL -----------\n")
 		escreva("NOME: " + nomeFuncionario + "\n")
 		escreva("NASCIMENTO: " + anoNascimento + "\n")
-		escreva("SALÁRIO: " + salario + "\n")
-		escreva("---------------------------------------")
+		escreva("SALÁRIO: € " + salario + "\n")
+		escreva("----------------------------------------\n")
 		
 		
 
@@ -42,7 +44,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 519; 
+ * @POSICAO-CURSOR = 617; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

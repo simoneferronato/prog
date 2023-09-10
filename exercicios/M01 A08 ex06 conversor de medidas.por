@@ -1,11 +1,13 @@
 programa
-{
+{	// Ex006 converte medidas
 	
 	
 	funcao inicio()
 	{
+		// Declaração de Variáveis
 		real m, km, hectometro, decametro, decimetro, centimetro, milimetro
 
+		// Entrada de Dados
 		escreva("Distância em metro: ")
 		leia(m)
 
@@ -16,15 +18,15 @@ programa
 		centimetro = (m * 10)
 		milimetro = (m * 1000)
 
-		escreva("\n")
-		escreva("----------CONVERTENDO----------")
-		escreva("\n" + km + " Km")
-		escreva("\n" + hectometro + " Hm")
-		escreva("\n" + decametro + " Dam")
-		escreva("\n" + decimetro + " dm")
-		escreva("\n" + centimetro + " cm")
-		escreva("\n" + milimetro + " mm")
-		escreva("\n")
+		// Resultados Finais
+		escreva("\n---------- CONVERTENDO ----------\n")
+		escreva("\n|" + km + " Km")
+		escreva("\n|" + hectometro 	+ " Hm")
+		escreva("\n|" + decametro 	+ " Dam")
+		escreva("\n|" + decimetro 	+ " dm")
+		escreva("\n|" + centimetro 	+ " cm")
+		escreva("\n|" + milimetro 	+ " mm")
+		escreva("\n↓\n")
 		
 		
 	}
@@ -34,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 271; 
+ * @POSICAO-CURSOR = 468; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,21 +1,21 @@
 programa
 {
+	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		real n1, n2, media
+		real preco, novoPreco
 
-		escreva("Primeira nota: ")
-		leia(n1)
+		escreva("\nQual é o preço do produto? € " )
+		leia(preco)
 
-		escreva("\nSegunda nota: ")
-		leia(n2)
+		novoPreco = mat.arredondar(preco - (preco * 5/100), 2)
 
-		media = (n1 + n2) / 2
+		escreva("-----------------------------------------------------")
 
+		escreva("\nCom 5% de desconto, o produto sai por € " + novoPreco)
 		escreva("\n")
-		escreva("\nAs notas do aluno foram " + n1 + " e " + n2)
-		escreva("\nA média final foi " + media)
+		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +23,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 238; 
+ * @POSICAO-CURSOR = 255; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

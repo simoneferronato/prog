@@ -1,18 +1,21 @@
 programa
 {
-	inclua biblioteca Matematica --> mat
 	
 	funcao inicio()
 	{
-		real preco, novoPreco
 
-		escreva("\nQual é o preço do produto? € " )
-		leia(preco)
+		// Operadores de Atribuição e Operadores de Incremento e decremento
+	
+		inteiro n = 10
+		n ++ // ou n = n +1 ou n += 1 
+		escreva(n)
 
-		novoPreco = mat.arredondar(preco - (preco * 5/100), 2)
-
-		escreva("\nCom 5% de desconto, o produto sai por € " + novoPreco)
 		escreva("\n")
+		
+		inteiro x = 20
+		x -- //  ou x = x - 1 ou x -= 1
+		escreva(x)
+		
 		
 	}
 }
@@ -21,7 +24,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 301; 
+ * @POSICAO-CURSOR = 108; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
